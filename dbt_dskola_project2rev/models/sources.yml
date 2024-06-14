@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: raw
+    database: postgres
+    schema: project2rev
+    tables:
+      - name: customers
+      - name: orders
+      - name: payments
+      - name: products
+      - name: employees
+      - name: shippers
+      - name: suppliers
+      - name: categories
+      - name: territories
+      - name: regions
+      - name: order_details
+      - name: employee_territories
